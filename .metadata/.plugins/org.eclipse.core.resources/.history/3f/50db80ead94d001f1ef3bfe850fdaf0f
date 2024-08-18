@@ -1,0 +1,18 @@
+#include "i2c.h"
+//--------------------
+uint8_t aTxBuffer[7];
+char str[100];
+//--------------------
+
+void i2c_WriteBuffer(I2C_HandleTypeDef hi, uint8_t DEV_ADDR, uint8_t sizebuf)
+{
+
+
+}
+
+//--------------------
+void i2c_ReadBuffer()
+{
+
+
+}

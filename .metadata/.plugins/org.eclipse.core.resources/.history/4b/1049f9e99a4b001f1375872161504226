@@ -1,0 +1,21 @@
+#ifndef LCD_H_
+#define LCD_H_
+//----------------------------
+#include "stm32f4xx_hal.h"
+//----------------------------
+#define c6_set() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_SET)
+#define c7_set() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_SET)
+#define c8_set() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_SET)
+#define c9_set() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_SET)
+#define c6_reset() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_RESET)
+#define c7_reset() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_RESET)
+#define c8_reset() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_RESET)
+#define c9_reset() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_RESET)
+#define e1 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET) // установка линии E в 1
+#define e0 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET) // установка линии E в 0
+#define rs1 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET) // установка линии RS в 1 (данные)
+#define rs0 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET) // установка линии RS в 0 (команда)
+//----------------------------
+void lcd_init();
+//----------------------------
+#endif /* LCD_H_ */

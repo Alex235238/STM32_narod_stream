@@ -1,0 +1,9 @@
+#ifndef LCD_H_
+#define LCD_H_
+
+#include "stm32f4xx_hal.h"
+
+#define c6_set() HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_SET)
+
+
+#endif /* LCD_H_ */

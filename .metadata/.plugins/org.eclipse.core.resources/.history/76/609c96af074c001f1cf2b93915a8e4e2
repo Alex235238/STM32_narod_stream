@@ -1,0 +1,52 @@
+#include "lcd.h"
+//----------------------------
+void lcd_delay(void)
+{
+	uint16_t i;
+	for (i = 0; i<1000; i++)
+	{
+
+	}
+}
+//----------------------------
+void lcd_WriteData(uint8_t)
+{
+	if(((dt>>3)&0x01) == 1) {c9_set;} else {c9_reset;}
+	if(((dt>>2)&0x01) == 1) {c8_set;} else {c8_reset;}
+	if(((dt>>1)&0x01) == 1) {c7_set;} else {c7_reset;}
+	if((dt&0x01) == 1) {c6_set;} else {c6_reset;}
+
+}
+//----------------------------
+void lcd_command(uint8_t dt)
+{
+	rs0;
+	lcd_WriteData(dt>>4);
+	e1;
+	lcd_delay();
+	e0;
+	lcd_WriteData(dt);
+	e1;
+	lcd_delay();
+	e0;
+}
+//----------------------------
+void lcd_init(void){
+	HAL_Delay(40);
+	rs0;
+	lcd_WriteData(3);
+	e1;
+	lcd_delay();
+	e0;
+	HAL_Delay(1);
+	lcd_WriteData(3);
+	e1;
+	lcd_delay();
+	e0;
+	HAL_Delay(1);
+	lcd_WriteData(3);
+	e1;
+	lcd_delay();
+	e0;
+	HAL_Delay(1);
+}

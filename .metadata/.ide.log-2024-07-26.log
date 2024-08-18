@@ -1,0 +1,41 @@
+2024-07-27 00:38:19,478 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 413539568 Bytes (497025024)
+2024-07-27 00:38:19,519 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:19,532 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:19,543 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:20,496 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 435559664 Bytes (497025024)
+2024-07-27 00:38:21,700 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 201660704 Bytes (497025024)
+2024-07-27 00:38:21,727 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:21,728 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:21,730 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: getsockopt
+2024-07-27 00:38:21,986 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-07-27 00:38:21,987 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-07-27 00:38:21,987 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-07-27 00:38:21,987 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-07-27 00:38:21,988 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2024-07-27 00:38:22,068 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\license.tmp_save
+2024-07-27 00:38:22,371 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\license.tmp
+2024-07-27 00:38:22,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\gpio.tmp_save
+2024-07-27 00:38:22,532 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\gpio.tmp
+2024-07-27 00:38:22,560 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\stm32f4xx_it.c_save
+2024-07-27 00:38:22,667 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\stm32f4xx_it.c
+2024-07-27 00:38:22,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\stm32f4xx_it.h_save
+2024-07-27 00:38:22,734 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\stm32f4xx_it.h
+2024-07-27 00:38:22,751 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\stm32f4xx_hal_msp.c_save
+2024-07-27 00:38:22,832 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\stm32f4xx_hal_msp.c
+2024-07-27 00:38:22,835 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\system.tmp_save
+2024-07-27 00:38:22,883 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\MXTmpFiles\system.tmp
+2024-07-27 00:38:22,902 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-07-27 00:38:22,974 [INFO] CodeEngine:335 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\stm32f4xx_hal_conf.h
+2024-07-27 00:38:23,020 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\main.h_save
+2024-07-27 00:38:23,095 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Inc\main.h
+2024-07-27 00:38:23,107 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\main.c_save
+2024-07-27 00:38:23,217 [INFO] CodeEngine:279 - Generated code: C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson6_LED4bit\Core\Src\main.c
+2024-07-27 00:38:23,423 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 84mS.
+2024-07-27 00:38:23,427 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2024-07-27 00:38:23,471 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-07-27 00:38:23,479 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-07-27 00:38:23,484 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-07-27 00:38:23,486 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-07-27 00:38:23,492 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-07-27 00:38:23,498 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-07-27 00:38:23,500 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

@@ -1,0 +1,6 @@
+#ifndef		i2c_H_
+#define		i2c_H_
+
+#include "lcd.h"
+
+#endif /* i2c_H */

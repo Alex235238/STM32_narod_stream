@@ -1,0 +1,17 @@
+23:10:48 **** Incremental Build of configuration Debug for project Lesson8_I2C_RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc -o "Lesson8_I2C_RTC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Alex\STM32CubeIDE\workspace_1.16.0\Lesson8_I2C_RTC\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lesson8_I2C_RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lesson8_I2C_RTC.elf
+ 
+arm-none-eabi-size  Lesson8_I2C_RTC.elf 
+arm-none-eabi-objdump -h -S Lesson8_I2C_RTC.elf  > "Lesson8_I2C_RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+  13532	     12	   1652	  15196	   3b5c	Lesson8_I2C_RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lesson8_I2C_RTC.list
+ 
+
+23:10:50 Build Finished. 0 errors, 0 warnings. (took 2s.465ms)
+
